@@ -1,4 +1,3 @@
-import 'package:flutter_ecom_app/pages/food/popular_food_detail.dart';
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_ecom_app/pages/home/main_food_page.dart';
@@ -20,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:PopularFoodDetail(),
+      home:MainFoodPage(),
     );
   }
 }
