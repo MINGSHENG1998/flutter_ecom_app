@@ -38,8 +38,8 @@ class PopularFoodDetail extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  AppIcon(icon: Icons.arrow_back_ios),
-                  AppIcon(icon: Icons.shopping_cart)
+                  AppIcon(icon: Icons.arrow_back_ios, iconSize: Dimensions.iconSize16,),
+                  AppIcon(icon: Icons.shopping_cart, iconSize: Dimensions.iconSize16)
                 ],
               )),
           //Food Basic Info
